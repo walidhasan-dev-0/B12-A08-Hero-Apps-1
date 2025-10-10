@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+    "title": "Photo Editor Pro",
+    "companyName": "PixLab Studio",
+    "id": 1,
+    "description": "An advanced photo editing app with filters, effects, and AI tools.",
+    "size": 56,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dw3ZjnCy/original-5e66f3e3cbe73ee8efe9f96a6ec1dcba.webp",
+    "title": "Task Manager",
+    "companyName": "Workly Inc.",
+    "id": 2,
+    "description": "Organize your daily tasks, set reminders, and boost productivity.",
+    "size": 32,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    "title": "Music Beats",
+    "companyName": "RhythmX",
+    "id": 3,
+    "description": "Stream and download your favorite songs with high-quality audio.",
+    "size": 74,
+    "reviews": 3400,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/BVnKvY64/6752930d5732bd9dd2f924c6-639d73c3d69d4803b0aa448c-Shrink.webp",
+    "title": "Fitness Tracker",
+    "companyName": "HealthMate",
+    "id": 4,
+    "description": "Track your workouts, calories, and daily steps easily.",
+    "size": 45,
+    "reviews": 1750,
+    "ratingAvg": 4.4,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+    "title": "Recipe World",
+    "companyName": "FoodNest",
+    "id": 5,
+    "description": "Discover thousands of recipes and cooking tips from around the world.",
+    "size": 39,
+    "reviews": 640,
+    "ratingAvg": 4.1,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
+    "title": "Note Keeper",
+    "companyName": "SmartWrite",
+    "id": 6,
+    "description": "Take notes quickly and sync across all your devices.",
+    "size": 25,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=800&q=80",
+    "title": "Weatherly",
+    "companyName": "SkyCast",
+    "id": 7,
+    "description": "Get accurate weather forecasts with real-time radar updates.",
+    "size": 52,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1210 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80",
+    "title": "Language Master",
+    "companyName": "LinguaTech",
+    "id": 8,
+    "description": "Learn new languages easily with interactive lessons and quizzes.",
+    "size": 68,
+    "reviews": 2900,
+    "ratingAvg": 4.7,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "Budget Tracker",
+    "companyName": "FinTrack",
+    "id": 9,
+    "description": "Manage your expenses and budget with smart visual charts.",
+    "size": 60,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80",
+    "title": "Language Buddy",
+    "companyName": "SpeakEasy",
+    "id": 10,
+    "description": "Practice speaking languages with native speakers.",
+    "size": 58,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/HfhRTdGH/Chat-GPT-Image-Oct-9-2025-12-13-44-AM.png",
+    "title": "Mindfulness Daily",
+    "companyName": "PeacePath",
+    "id": 11,
+    "description": "Daily meditation, breathing exercises & mindful journaling.",
+    "size": 48,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/1f91byVZ/photo-1485217988980-11786ced9454.jpg",
+    "title": "Travelogue",
+    "companyName": "Wanderlust Co.",
+    "id": 12,
+    "description": "Plan your trips, track memories, and share travel stories.",
+    "size": 70,
+    "reviews": 800,
+    "ratingAvg": 4.2,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Jw1t4cmm/sleep-wake-cycle.jpg",
+    "title": "Sleep Cycle",
+    "companyName": "RestWell",
+    "id": 13,
+    "description": "Track your sleep patterns and wake you optimally.",
+    "size": 42,
+    "reviews": 1600,
+    "ratingAvg": 4.4,
+    "downloads": 3300000,
+    "ratings": [
+      { "name": "1 star", "count": 85 },
+      { "name": "2 star", "count": 95 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 740 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/wZ6QTzhr/istockphoto-1073477994-612x612.jpg",
+    "title": "Event Planner",
+    "companyName": "OrganizeIt",
+    "id": 14,
+    "description": "Plan events, manage guests, and set schedules easily.",
+    "size": 54,
+    "reviews": 700,
+    "ratingAvg": 4.1,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 185 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "title": "Kids Learning",
+    "companyName": "EduFun",
+    "id": 15,
+    "description": "Interactive learning games and lessons for children.",
+    "size": 65,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=800&q=80",
+    "title": "Book Reader",
+    "companyName": "ReadOn",
+    "id": 16,
+    "description": "Read e-books and novels in multiple formats.",
+    "size": 30,
+    "reviews": 1000,
+    "ratingAvg": 4.2,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pvWQ4Wdc/istockphoto-1470815638-612x612.jpg",
+    "title": "Language Flashcards",
+    "companyName": "Vocabify",
+    "id": 17,
+    "description": "Learn new words daily with flashcards and quizzes.",
+    "size": 35,
+    "reviews": 850,
+    "ratingAvg": 4.3,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 65 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?auto=format&fit=crop&w=800&q=80",
+    "title": "Photo Collage Maker",
+    "companyName": "CollageWorks",
+    "id": 18,
+    "description": "Create beautiful collages, add stickers and frames.",
+    "size": 55,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    "title": "Healthy Recipes",
+    "companyName": "NutriLife",
+    "id": 19,
+    "description": "Delicious and healthy cooking ideas for every meal.",
+    "size": 50,
+    "reviews": 780,
+    "ratingAvg": 4.2,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 195 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/Mxhg6jJX/images.jpg",
+    "title": "Workout Planner",
+    "companyName": "FitPlan",
+    "id": 20,
+    "description": "Custom workout routines and tracking for all levels.",
+    "size": 47,
+    "reviews": 1250,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 65 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 495 }
+    ]
+  }
+]
