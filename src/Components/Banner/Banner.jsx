@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGooglePlay } from "react-icons/fa6";
-import { FaAppStore } from "react-icons/fa";
+import { FaAppStoreIos } from "react-icons/fa";
 import heroPng from '../../assets/hero.png'
 const Banner = () => {
     return (
@@ -11,8 +11,8 @@ const Banner = () => {
  to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>
                 <p className='text-[#627382] text-[18px] mt-4'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br/> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 <div>
-                    <button className='btn m-7 font-bold'><FaGooglePlay className='text-[30px] text-red-500' /> GooglePlay </button>
-                    <button className='btn font-bold'><FaAppStore className='text-[30px] text-amber-300' />  App Store</button>
+                    <button className='btn m-7 font-bold'><a className='flex items-center gap-4' href="https://play.google.com/store"><FaGooglePlay className='text-[30px] text-red-500' /> GooglePlay</a> </button>
+                    <button className='btn font-bold'><a className='flex items-center gap-4' href="https://www.apple.com/app-store/"> <FaAppStoreIos className='text-[30px] text-blue-300' /> Appstore</a></button>
                     <div className='mt-4'>
                         <img className='continer mx-auto' src={heroPng} alt="" />
                     </div>
@@ -52,6 +52,7 @@ const Banner = () => {
                     <h1 className='text-5xl font-bold'>Trending Apps</h1>
                     <p className='mt-4 text-[18px] text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
+                
         </div>
     );
 };

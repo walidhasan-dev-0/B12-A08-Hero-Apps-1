@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 const App = ({app}) => {
     const {title,reviews,id,ratingAvg
 ,description,companyName,image}=app
-    console.log(app)
+    // console.log(app)
     return (
         <div>
             

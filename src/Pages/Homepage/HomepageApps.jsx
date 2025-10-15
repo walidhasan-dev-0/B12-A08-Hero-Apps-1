@@ -6,7 +6,8 @@ const HomepageApps = ({apps}) => {
     console.log(myData)
    
     return (
-        <div className="">
+      
+          <div className="">
     <div className="card bg-base-100 w-96 shadow-sm p-4">
   <figure>
     <img
@@ -35,9 +36,17 @@ const HomepageApps = ({apps}) => {
       <button className="btn bg-[#F1F5E8] btn-xs text-[#00D390] text-[20px]"><CiSaveDown2 className="text-[#00D390]"/> 9M</button>
       <button className="btn btn-xs text-[#FF8811] text-[20px] bg-[#FFF0E1]"><FaRegStar className="text-[#FF8811]" /> 5</button>
     </div>
+    
   </div>
 </div>
-        </div>
+<div>
+  
+</div>
+
+          </div>
+
+     
+        
     );
 };
 

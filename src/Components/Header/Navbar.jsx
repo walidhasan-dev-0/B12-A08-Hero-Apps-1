@@ -9,7 +9,7 @@ const Navbar = () => {
 
     <NavLink to='/'><li className='m-2'> Home</li></NavLink>
     <NavLink to='/apps'><li className='m-2'>Apps</li></NavLink>
-    <NavLink className='m-2'>Installation</NavLink>
+    <NavLink to='/install' className='m-2'>Installation</NavLink>
     
     </>
     return (
@@ -28,9 +28,9 @@ const Navbar = () => {
        {links}
       </ul>
     </div>
-    <img className='w-[50px]' src={logoPng} alt="" />
-    <a className="btn-ghost text-xl bg-gradient-to-r from-[#632EE3]
- to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
+    <Link to='/'><img className='w-[50px]' src={logoPng} alt="" /></Link>
+    <Link to='/' className="btn-ghost text-xl bg-gradient-to-r from-[#632EE3]
+ to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -42,7 +42,7 @@ const Navbar = () => {
   <div className="navbar-end">
     
     <a className="btn text-white bg-gradient-to-r from-[#632EE3]
- to-[#9F62F2]"><IoLogoGithub className='text-white' /> Contribute</a>
+ to-[#9F62F2]" href='https://github.com/walidhasan-dev-0'><IoLogoGithub className='text-white' /> Contribute</a>
   </div>
 </div>
 

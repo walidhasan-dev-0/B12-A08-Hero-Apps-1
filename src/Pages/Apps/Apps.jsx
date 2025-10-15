@@ -1,10 +1,20 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import App from '../App/App2';
+import { Search } from 'lucide-react';
 
 const Apps = () => {
     const appData = useLoaderData()
     console.log(appData)
+    
+
+     const [Search,setSearch] = useState('')
+     const term = Search.trim().toLocaleLowerCase()
+     console.log(term,Search)
+     const searchApps = term? appData.filter(app => app.title.toLocaleLowerCase().includes(term)) : appData
+     
+
+
     return (
         
             <div>
@@ -14,12 +24,17 @@ const Apps = () => {
                </div>
                <div className="flex mt-10 items-center container mx-auto justify-between">
                 <h3>({appData.length}) Apps Found</h3>
-                <input type="text" placeholder='search' />
+                <label className="input">
+                    
+                    <input
+                     value={Search}
+                    onChange={(e) => setSearch(e.target.value)} type="search" placeholder="search apps" />
+                </label>
                </div>
                <div className="container mx-auto grid lg:grid-cols-4 sm:grid-cols-2 gap-5 mt-9 items-center justify-center"> 
                 <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
                 {
-                    appData.map(app => <App key={app.id} app={app}></App>)
+                    searchApps.map(app => <App key={app.id} app={app}></App>)
                 }
                 </Suspense>
                </div>

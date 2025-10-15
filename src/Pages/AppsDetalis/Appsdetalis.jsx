@@ -3,6 +3,8 @@ import {useLoaderData, useParams } from 'react-router';
 import { FaDownload } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
+import { addStoreData } from '../../Utlity/addToDb';
+
 const Appsdetalis = () => {
    
     const {appsId} = useParams()
@@ -10,10 +12,12 @@ const Appsdetalis = () => {
     const allid = parseInt(appsId)
     const appsData = useLoaderData()
     const singleApps = appsData.find(apps => apps.id === allid)
-    const {image,description,title,ratingAvg,reviews} = singleApps
+    const {image,description,title,ratingAvg,reviews,id} = singleApps
     
 
-    
+    const installButton = (id) => {
+      addStoreData(id)
+    }
 
     
     return (
@@ -46,7 +50,7 @@ const Appsdetalis = () => {
                   </div>
                 </div>
                 <div className="card-actions border-b border-gray-400 p-5">
-                  <button className="btn bg-[#00D390] text-white">InstallNow</button>
+                  <button onClick={() => installButton(id)} className="btn bg-[#00D390] text-white">InstallNow</button>
                 </div>
               </div>
             </div>
